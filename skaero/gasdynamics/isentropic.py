@@ -3,23 +3,6 @@
 """
 Isentropic relations.
 
-Routines
---------
-mach_angle(M)
-prandtl_meyer_function(M, fl=None)
-mach_from_area_ratio(fl, A_Astar)
-
-Classes
--------
-IsentropicFlow(gamma)
-PrandtlMeyerExpansion(M_1, nu, fl=None)
-
-Examples
---------
->>> from skaero.gasdynamics import isentropic
->>> fl = IsentropicFlow(gamma=1.4)
->>> _, M = isentropic.mach_from_area_ratio(2.5, fl)
-
 """
 
 from __future__ import division, absolute_import

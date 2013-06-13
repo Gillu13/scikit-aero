@@ -3,16 +3,6 @@
 """
 COESA model.
 
-Routines
---------
-geometric_to_geopotential(z)
-coesa(h)
-
-Examples
---------
->>> from skaero.atmosphere import coesa
->>> h, T, p, rho = coesa.table(1000)
-
 TODO
 ----
 * Check geopotential temperature

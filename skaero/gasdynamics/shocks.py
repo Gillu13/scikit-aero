@@ -3,20 +3,9 @@
 """
 Shock waves.
 
-Routines
---------
-max_deflection(M_1, gamma=1.4)
-Shock(**kwargs)
-
 The important piece of the module is `Shock`, which returns a shock object
 from a variety of combinations of parameters. For more information and
 examples, see the docstring of `Shock`.
-
-Examples
---------
->>> from skaero.gasdynamics import shocks
->>> ns = shocks.Shock(M_1=2.0, gamma=1.4)  # Normal shock by default
->>> shocks.Shock(M_1=3.0, theta=np.radians(25), weak=True)
 
 """
 

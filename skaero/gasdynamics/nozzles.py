@@ -3,10 +3,6 @@
 """
 Utilities for working with nozzles.
 
-Classes
--------
-Nozzle(x, A)
-
 """
 
 from __future__ import division, absolute_import
