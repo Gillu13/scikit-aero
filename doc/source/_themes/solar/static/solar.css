@@ -132,6 +132,16 @@ div.footer a {
     text-decoration: none;
 }
 
+/* -- custom -- */
+
+div.figure {
+	margin-top: 1em;
+}
+
+p.logo {
+	text-align: center;
+}
+
 /* -- body styles ----------------------------------------------------------- */
 
 p {    
